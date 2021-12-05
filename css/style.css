@@ -1,0 +1,141 @@
+/* -------------------------------------Title Section------------------------------ */
+
+#title{
+    background-color: #ff4c68; color: white;
+}
+.container-fluid{
+    padding: 1% 15% 4% 15%;
+}
+body{
+    font-family: "Montserrat"; font-weight: 400;
+}
+h1{
+    font-family: "Montserrat", sans-serif; font-weight: 900;
+    font-size: 3rem; line-height: 1.5;
+}
+h2{
+    font-family: "Montserrat"; font-weight: 900;
+}
+h3{
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif; font-weight: 900;
+}
+p{
+    color: #8f8f8f;
+}
+
+/* nevigation bar */
+.navbar-brand{
+    font-family: "ubuntu"; font-size: 2rem; font-weight: 400;
+}
+.navbar{
+    padding-bottom: 4rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem; 
+    font-family: "Montserrat"; font-weight: 400;
+}
+
+/* Download Buttons */
+.download-btn{
+    margin: 5% 2% 10% 0;
+}
+
+/* Title Image */
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative; left: 10%;
+}
+
+/* CSS media breakpoint */
+
+@media (max-width: 1097px){
+    #title{
+        text-align: center;
+        height: 1150px;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+@media (max-width: 1097px) and (min-width: 995px) {
+    #title{
+        height: 800px;
+    }
+}
+/* -------------------------------------Feature Section------------------------------ */
+
+#features{
+    text-align: center;
+    padding: 5% 12%;
+    background-color: white;
+    position: relative; bottom: 150px; z-index: 1;
+}
+
+.feature-icon{
+    color: #ff4c68;
+}
+.fas{
+    margin-top: 50px;
+}
+.fashov:hover{
+    color: #FF0000  ;
+}
+
+/* -----------------------------------Testimonials Section------------------------------ */
+
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68; color: white;  
+    position: relative; z-index: 2; bottom: 100px;
+}
+.testimonial-image{
+    width: 15%;
+    margin: 3%;
+    border-radius: 100%;
+}
+.carousel-item{
+    padding: 8% 12%;
+}
+
+/* --------------------------------------Pricing Section-------------------------------- */
+
+#pricing{
+    background-color: white;
+    padding: 0 10% 5%;
+    text-align: center;
+    position: relative; z-index: 3; bottom: 1px;
+}
+.pricing-card{
+    padding: 3% 2%;
+}
+
+/* -----------------------------------Call to Aaction Section-------------------------------- */
+
+#cta{
+    padding: 7% 12% 0;
+    text-align: center;
+    background-color: #ff4c68;
+}
+.cta-h3{
+    font-size: 2rem;
+    color: white; 
+}
+
+/* -----------------------------------------Footer Section------------------------------------ */
+
+#footer{
+    text-align: center;
+    padding: 0 12% 4%;
+    background-color: white;
+}
+.fot{
+    padding: 4% 2%;
+    color: black;
+}
